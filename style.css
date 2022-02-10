@@ -1,0 +1,42 @@
+html {
+    background: url(img/pd.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Helvetica, sans-serif;
+  }
+  body {
+    margin: 0;
+  }
+  #root {
+    background: url(img/raster.png);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  #title {
+    margin: 90px 0;
+    padding: 13px 100px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 5em;
+  }
+  #title:hover {
+    background-color: white;
+    opacity: 0.5;
+  }
+  .title {
+    background: rgb(130,0,139);
+    background: linear-gradient(90deg, rgba(130,0,139,1) 0%, rgba(53,69,205,1) 48%, rgba(80,185,213,1) 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+  }
+  .title:hover {
+    cursor: pointer;
+  }
