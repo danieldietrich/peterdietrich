@@ -40,3 +40,12 @@ html {
   .title:hover {
     cursor: pointer;
   }
+  #footer {
+    position: fixed;
+    bottom: 1%;
+    right: 3%;
+    color: white;
+    font-size: 0.8em;
+    font-weight: 100;
+    opacity: 0.5;
+  }
